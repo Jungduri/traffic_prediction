@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/traffic_prediction.iml" filepath="$PROJECT_DIR$/.idea/traffic_prediction.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/untitled/.idea/untitled.iml" filepath="$USER_HOME$/Desktop/untitled/.idea/untitled.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/untitled1/.idea/untitled1.iml" filepath="$USER_HOME$/Desktop/untitled1/.idea/untitled1.iml" />
     </modules>
   </component>
 </project>
