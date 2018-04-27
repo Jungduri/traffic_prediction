@@ -17,9 +17,8 @@ It is uploaded in "/data"
 
 ### [scr] file description. 
 
-data_cropping.py > initial data pre-process code. using csv library.<br />
 data_cropping_panda > data pre-process code. using pandas library. For toll estimation. <br />
-data_parshing_ver2 > data pre-process code. using pandas library. For inter-toll estimation.<br />
+data_parshing_ver3 > data pre-process code. using pandas library. For inter-toll estimation.<br />
 <br />
 learning_ver3 > Single toll traffic flow estimation.<br />
 learning_ver4 > Inter-provincial traffic flow estimation.
