@@ -77,9 +77,9 @@ tf.set_random_seed(777)  # reproducibility
 
 ## read
 ## SEOUL TO GANGWON ##
-df = pd.read_csv("data/intertoll/total_seoul_to_gangwon_refine.csv")
+df = pd.read_csv("../data/intertoll/total_seoul_to_gangwon_refine.csv")
 ## GANGWON TO SEOUL ##
-# df = pd.read_csv("data/intertoll/total_gangwon_to_seoul_refine.csv")
+# df = pd.read_csv("../data/intertoll/total_gangwon_to_seoul_refine.csv")
 
 ## column 순서 변경 ( 날씨 + 교통량 )
 cols = df.columns.tolist()
@@ -223,7 +223,7 @@ plt2.text(iterations-iterations/3, max(lossAll)-max(lossAll)/2,
           "\niterations: {}".format(iterations)+
           "\nsequence length: {}".format(seq_length),fontsize = 20)
 plt.tight_layout()
-plt.savefig('result/권역_일단위예측/seoul_to_gangwon/result{}.png'.format(saveFig))
+plt.savefig('../result/권역_일단위예측/seoul_to_gangwon/result{}.png'.format(saveFig))
 plt.show()
 
 a = 1
