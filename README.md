@@ -14,27 +14,28 @@ It is too big to upload in hear.
 To run this code is only need total_seoul_to_gangwon_xxx.csv. <br />
 It is uploaded in "/data"
 
-### Data description
-Data contatning 22 columns.
-date code 17 + weather 4 + traffic 1
-5 Years traffic data
-total 1515 records
-train/validation/test: 0.7/0.15/0.15
+### Data description <br />
+Data contatning 22 columns. <br />
+date code 17 + weather 4 + traffic 1 <br />
+5 Years traffic data <br />
+total 1515 records <br />
+train/validation/test: 0.7/0.15/0.15 <br />
 
-### algorithms decription
-__LSTM model:__ (hyperparamters optimized empiricalls
-number of cells: 4
-number of hid. : 30
-iteration      : 400
-*Fully connected* layer in a last layer
-loss function: rmse + l2 norm
-__Optimization methods__
-Dropout(prop=0.5)
-L2 norm
-Validation set
-xavier initialization
-adamoptimizer
+### algorithms decription <br />
+__LSTM model:__ (hyperparamters optimized empiricalls <br />
+number of cells: 4 <br />
+number of hid. : 30 <br />
+iteration      : 400 <br />
+*Fully connected* layer in a last layer <br />
+loss function: rmse + l2 norm <br />
 
-### [scr] file description. 
-clone the git and run lst_traffic_prediction.py
+__Optimization methods__ <br />
+Dropout(prop=0.5) <br />
+L2 norm <br />
+Validation set <br />
+xavier initialization <br />
+adamoptimizer <br />
+
+### [scr] file description.  <br />
+clone the git and run lst_traffic_prediction.py <br />
 
